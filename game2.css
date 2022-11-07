@@ -1,0 +1,12 @@
+body {
+    font-family: sans-serif;
+    background: url("bgawan.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
+.bold {
+    font-weight: bold;
+}
