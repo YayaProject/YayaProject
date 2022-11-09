@@ -8,6 +8,9 @@ if (localStorage.getItem("topScore") !== null) {
     document.getElementById("topScore"). innerHTML = topScore + "s";
 }
 
+document.getElementById("tombol1").style.display = "none";
+
+document.getElementById("tombol").onclick = function() {
 tampilkanGambar();
 function tampilkanGambar() {
     const top = Math.random() * 400;
@@ -23,8 +26,11 @@ function tampilkanGambar() {
     document.getElementById("bird").style.position = "relative";
     document.getElementById("bird").style.display = "block";
 }
+document.getElementById("tombol").style.display = "none";
+
 
 document.getElementById("bird").onclick = function() {
+    
     document.getElementById("bird").src = "bom.png";
     document.getElementById("bird").style.height = 120 + "px";
     document.getElementById("bird").style.width = 120 + "px";
@@ -39,7 +45,17 @@ document.getElementById("bird").onclick = function() {
         totalWaktu = (end - start) / 100;
         document.getElementById("totalWaktu"). innerHTML = totalWaktu + "s";
         setTopscore();
+        document.getElementById("tombol1").style.display = "block";
+        document.getElementById("tombol1").style.marginTop = 160 + "px";
+        counter = 1;
     }
+}
+}
+
+document.getElementById("tombol1").onclick = function() {
+  document.getElementById("tombol1").style.display = "none";
+  document.getElementById("tombol").style.display = "block";
+  document.getElementById("tombol").style.marginTop = 160 + "px";
 }
 
 function sembunyikanGambar() {

@@ -1,4 +1,4 @@
-body {
+html {
     font-family: sans-serif;
     background: url("bgawan.jpg");
     background-position: center;
@@ -9,4 +9,11 @@ body {
 }
 .bold {
     font-weight: bold;
+}
+#tombol, #tombol1 {
+  margin-top: 120px;
+  padding: 10px;
+  letter-spacing: 2px;
+  font-size: 25px;
+  font-weight: bold;
 }
