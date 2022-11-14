@@ -18,7 +18,7 @@ function tampilkanGambar() {
 
     start = new Date().getTime();
 
-    document.getElementById("bird").src = "bird.png";
+    document.getElementById("bird").src = "project/project-7/bird.png";
     document.getElementById("bird").style.height = 60 + "px";
     document.getElementById("bird").style.width = 60 + "px";
     document.getElementById("bird").style.top = top + "px";
@@ -31,7 +31,7 @@ document.getElementById("tombol").style.display = "none";
 
 document.getElementById("bird").onclick = function() {
     
-    document.getElementById("bird").src = "bom.png";
+    document.getElementById("bird").src = "project/project-7/bom.png";
     document.getElementById("bird").style.height = 120 + "px";
     document.getElementById("bird").style.width = 120 + "px";
     setTimeout(sembunyikanGambar, 500);
