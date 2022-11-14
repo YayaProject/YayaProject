@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
- background-image: url("background4.jpg");
+ background-image: url("image/background4.jpg");
  background-size: cover;
  background-position: center;
  height: 100vh;
