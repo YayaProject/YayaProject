@@ -93,6 +93,15 @@
   background-size: 100% 100%;
   margin-bottom: 50px;
 }
+.project10{
+  height: 320px;
+  width: 320px;
+  background: url("image/bgproject3.jpg");
+  margin: 10px;
+  border-radius: 20px;
+  background-size: 100% 100%;
+  margin-bottom: 50px;
+}
 .tombolview {
   height: 30px;
   width: 100px;
