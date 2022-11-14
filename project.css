@@ -24,7 +24,7 @@
   text-align: center;
   height: 320px;
   width: 320px;
-  background: url("bgproject1.jpg");
+  background: url("image/bgproject1.jpg");
   margin: 10px;
   border-radius: 20px;
   background-size: 100% 100%;
@@ -33,7 +33,7 @@
 .project3{
   height: 320px;
   width: 320px;
-  background: url("bgproject2.jpg");
+  background: url("image/bgproject2.jpg");
   margin: 10px;
   border-radius: 20px;
   background-size: 100% 100%;
@@ -42,7 +42,7 @@
 .project4{
   height: 320px;
   width: 320px;
-  background: url("bgproject3.jpg");
+  background: url("image/bgproject3.jpg");
   margin: 10px;
   border-radius: 20px;
   background-size: 100% 100%;
@@ -51,7 +51,7 @@
 .project5{
   height: 320px;
   width: 320px;
-  background: url("bgproject4.jpg");
+  background: url("image/bgproject4.jpg");
   margin: 10px;
   border-radius: 20px;
   background-size: 100% 100%;
@@ -60,7 +60,7 @@
 .project6{
   height: 320px;
   width: 320px;
-  background: url("bgproject5.jpg");
+  background: url("image/bgproject5.jpg");
   margin: 10px;
   border-radius: 20px;
   background-size: 100% 100%;
@@ -69,7 +69,7 @@
 .project7{
   height: 320px;
   width: 320px;
-  background: url("bgproject6.jpg");
+  background: url("image/bgproject6.jpg");
   margin: 10px;
   border-radius: 20px;
   background-size: 100% 100%;
@@ -78,7 +78,7 @@
 .project8{
   height: 320px;
   width: 320px;
-  background: url("bgproject1.jpg");
+  background: url("image/bgproject1.jpg");
   margin: 10px;
   border-radius: 20px;
   background-size: 100% 100%;
@@ -87,7 +87,7 @@
 .project9{
   height: 320px;
   width: 320px;
-  background: url("bgproject2.jpg");
+  background: url("image/bgproject2.jpg");
   margin: 10px;
   border-radius: 20px;
   background-size: 100% 100%;
