@@ -16,6 +16,9 @@ h1 {
  margin-bottom: 0;
  margin-top: 0;
 }
+#home-head {
+  font-size: 30px;
+}
 h6 {
   color: grey;
   margin-top: 0;
