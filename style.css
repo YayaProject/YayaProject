@@ -112,8 +112,7 @@ header nav ul li a {
     display: block;
 }
 
-header nav ul li a:hover,
-header nav ul li a.active {
+header nav ul li a:hover{
     color: black;
     background-color: #1595c5;
 }
@@ -157,9 +156,8 @@ header nav ul li a.active {
         text-align: center;
     }
     header nav ul li a {
-        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        border-bottom: 1px solid white;
         color: white;
-        border-color: white;
     }
 }
 
