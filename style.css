@@ -155,9 +155,9 @@ header nav ul li a:hover{
         text-align: center;
     }
     header nav ul li a {
-        border-bottom: 1px solid white;
-        background: black;
-        color: white;
+        border: 1px solid black;
+        background: white;
+        color: black;
     }
 }
 
