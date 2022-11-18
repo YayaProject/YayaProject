@@ -141,8 +141,8 @@ header nav ul li a:hover{
         position: absolute;
         width: 100%;
         height: calc(100vh - 50px);
-        top: 50px;
-        left: -100%;
+        top: 55px;
+        right: 100%;
         transition: 0.5s all;
     }
 
