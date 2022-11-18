@@ -14,7 +14,7 @@ body {
 h1 {
  font-family: 'Poppins',sans-serif;
  margin-bottom: 0;
- margin-top: 20px;
+ margin-top: 0;
 }
 h6 {
   color: grey;
@@ -33,10 +33,6 @@ h6 {
   font-size: 20px;
   font-weight: bold;
   border: none;
-}
-h2 {
-  font-family: 'Poppins', sans-serif;
-  margin-top: 0;
 }
 p {
  font-family: sans-serif;
