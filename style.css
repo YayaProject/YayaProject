@@ -141,7 +141,6 @@ header nav ul li a:hover{
         position: absolute;
         width: 100%;
         height: calc(100vh - 50px);
-  
         top: 50px;
         left: -100%;
         transition: 0.5s all;
@@ -157,6 +156,7 @@ header nav ul li a:hover{
     }
     header nav ul li a {
         border-bottom: 1px solid white;
+        background: black;
         color: white;
     }
 }
