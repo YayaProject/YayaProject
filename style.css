@@ -147,7 +147,7 @@ header nav ul li a:hover{
     }
 
     header nav.active {
-        left: 0;
+        right: 0;
     }
 
     header nav ul {
