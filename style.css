@@ -142,7 +142,7 @@ header nav ul li a.active {
         position: absolute;
         width: 100%;
         height: calc(100vh - 50px);
-        background: white;
+        background: black;
         top: 50px;
         left: -100%;
         transition: 0.5s all;
@@ -158,7 +158,7 @@ header nav ul li a.active {
     }
     header nav ul li a {
         border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-        color: black;
+        color: white;
     }
 }
 
