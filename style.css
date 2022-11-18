@@ -142,7 +142,7 @@ header nav ul li a:hover{
         width: 100%;
         height: calc(100vh - 50px);
         top: 55px;
-        left: 200%;
+        right: -100%;
         transition: 0.5s all;
     }
 
