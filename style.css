@@ -130,7 +130,7 @@ header nav ul li a:hover{
 
 @media (max-width: 600px) {
     header {
-        padding: 0 20px;
+        padding: 0 17px;
     }
 
     .menu-toggle {
@@ -142,7 +142,7 @@ header nav ul li a:hover{
         width: 100%;
         height: calc(100vh - 50px);
         top: 55px;
-        right: 200%;
+        left: 200%;
         transition: 0.5s all;
     }
 
