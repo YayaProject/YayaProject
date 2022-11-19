@@ -13,6 +13,7 @@
   <link rel= "icon" href="image/icon.png" >
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="project.css">
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="jquery.js"></script>
   <script src= "script.js"></script>
 </head>
@@ -147,7 +148,11 @@
     </footer>
 <script type= "text/javascript">
   document.getElementById("tombolview").onclick = function() {
-     alert("Yang Menunggu Harap Sabar, Yang Ditunggu Harap Sadar");
+     Swal.fire(
+  'Coming Soon',
+  'Sabar Developer Mau Ujian',
+  'question'
+)
   }
 </script>
 </body>
