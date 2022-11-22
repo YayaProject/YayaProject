@@ -1,2 +1,2 @@
-# YayaProject.github.io
+# YayaProject
 Website Project
