@@ -30,7 +30,7 @@ document.getElementById("tombol-about1").onclick = function() {
   }
   document.getElementById("tombol-about3").onclick = function() {
      Swal.fire(
-  '',
-  'Project ini adalah form login untuk masuk ke situs ini'
+  'Kalkulator',
+  'Project ini adalah kalkulator sederhana'
 )
   }
