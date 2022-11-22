@@ -2,14 +2,28 @@ html {
     scroll-behavior: smooth;
 }
 body {
- background-image: url("image/background4.jpg");
- background-size: cover;
+ background-color: #181535;
+ color: white;
+}
+#bg-blue {
+  background-image: url('image/bg-head.svg');
+  background-size: cover;
  background-position: center;
  height: 100vh;
  width: 100vw;
  background-repeat: no-repeat;
- background-color: black;
- color: white;
+ margin-bottom: 0;
+  
+}
+#home {
+  margin-top: 50px;
+}
+.bg-line {
+ margin-top: 0;
+ margin-bottom: 0;
+ padding-bottom: 0;
+ height: auto;
+ width: 100%;
 }
 h1 {
  font-family: 'Poppins',sans-serif;
@@ -25,8 +39,8 @@ h6 {
   margin-bottom: 15px;
 }
 .get-apk {
-  color: black;
-  background-image: linear-gradient(white, grey);
+  color: white;
+  background-color: rgba(0,0,0,0);
   height: auto;
   width: auto;
   margin: 20px;
@@ -35,7 +49,11 @@ h6 {
   font-family: "Tahoma";
   font-size: 17px;
   font-weight: bold;
-  border: none;
+  border: 2px solid white;
+}
+.get-apk:hover {
+  background-color: white;
+  color: black;
 }
 p {
  font-family: sans-serif;
@@ -88,7 +106,9 @@ header .logo {
     float: left;
     font-weight: bold;
 }
-
+#yaya-text {
+  color: DodgerBlue;
+}
 header nav {
     float: right;
 }
@@ -110,11 +130,12 @@ header nav ul li a {
     padding: 0 20px;
     text-decoration: none;
     display: block;
+    font-weight: bold;
 }
 
 header nav ul li a:hover{
-    color: black;
-    background-color: #1595c5;
+    color: white;
+    background-color: DodgerBlue;
 }
 
 .menu-toggle {
@@ -159,6 +180,7 @@ header nav ul li a:hover{
         border-bottom: 1px solid black;
         background: white;
         color: black;
+        font-weight: bold;
     }
 }
 
@@ -180,8 +202,10 @@ footer{
     background: white;
     height: auto;
     width: 100vw;
-    padding-top: 40px;
     color: black;
+}
+#about {
+  margin-top: 0;
 }
 .footer-content{
     display: flex;
@@ -231,11 +255,11 @@ footer{
 
 }
 .socials a:hover i{
-    color: aqua;
+    color: DodgerBlue;
 }
 
 .footer-bottom{
-    background: #000;
+    background: #181535;
     width: 100vw;
     padding: 20px;
 padding-bottom: 25px;
@@ -247,7 +271,7 @@ padding-bottom: 25px;
     text-transform: capitalize;
 }
 .footer-bottom p{
-  color:#44bae8;
+  color: DodgerBlue;
   font-size: 16px;
   text-decoration: none;
 }

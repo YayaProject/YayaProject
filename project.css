@@ -15,16 +15,53 @@
 .tombolview {
   height: 30px;
   width: 100px;
-  color: white;
-  margin: 10px;
-  background-image: linear-gradient(#1595c5, #085f93);
-  border: none;
+  color: black;
+  font-weight: bold;
+  margin: 10px 4px;
+  background-color: rgba(0,0,0,0);
+  border-radius: 20px;
+  border: 2px solid black;
+  transition-duration: 0.4s;
 }
-.project2{
+.tombol-about {
+  height: 30px;
+  width: 30px;
+  color: black;
+  font-weight: bold;
+  margin: 10px 4px;
+  background-color: rgba(0,0,0,0);
+  border-radius: 20px;
+  border: 2px solid black;
+  transition-duration: 0.4s;
+}
+.tombol-about:hover {
+  background-color: black;
+  color: white;
+}
+.tombolview:hover {
+  background-color: black;
+  color: white;
+}
+#coming-soon {
+  margin-bottom: 15px;
+}
+#coming-soon2 {
+  margin-bottom: 10px;
+}
+.project1{
   text-align: center;
   height: 320px;
   width: 320px;
-  background: url("image/bgproject1.jpg");
+  background: url("image/bg1.svg");
+  margin: 10px;
+  border-radius: 20px;
+  background-size: 100% 100%;
+  margin-bottom: 50px;
+}
+.project2{
+  height: 320px;
+  width: 320px;
+  background: url("image/bg2.svg");
   margin: 10px;
   border-radius: 20px;
   background-size: 100% 100%;
@@ -33,7 +70,7 @@
 .project3{
   height: 320px;
   width: 320px;
-  background: url("image/bgproject2.jpg");
+  background: url("image/bg3.svg");
   margin: 10px;
   border-radius: 20px;
   background-size: 100% 100%;
@@ -42,7 +79,7 @@
 .project4{
   height: 320px;
   width: 320px;
-  background: url("image/bgproject3.jpg");
+  background: url("image/bg4.svg");
   margin: 10px;
   border-radius: 20px;
   background-size: 100% 100%;
@@ -51,7 +88,7 @@
 .project5{
   height: 320px;
   width: 320px;
-  background: url("image/bgproject4.jpg");
+  background: url("image/bg5.svg");
   margin: 10px;
   border-radius: 20px;
   background-size: 100% 100%;
@@ -60,61 +97,11 @@
 .project6{
   height: 320px;
   width: 320px;
-  background: url("image/bgproject5.jpg");
+  background: url("image/bg6.svg");
   margin: 10px;
   border-radius: 20px;
   background-size: 100% 100%;
   margin-bottom: 50px;
-}
-.project7{
-  height: 320px;
-  width: 320px;
-  background: url("image/bgproject6.jpg");
-  margin: 10px;
-  border-radius: 20px;
-  background-size: 100% 100%;
-  margin-bottom: 50px;
-}
-.project8{
-  height: 320px;
-  width: 320px;
-  background: url("image/bgproject1.jpg");
-  margin: 10px;
-  border-radius: 20px;
-  background-size: 100% 100%;
-  margin-bottom: 50px;
-}
-.project9{
-  height: 320px;
-  width: 320px;
-  background: url("image/bgproject2.jpg");
-  margin: 10px;
-  border-radius: 20px;
-  background-size: 100% 100%;
-  margin-bottom: 50px;
-}
-.project10{
-  height: 320px;
-  width: 320px;
-  background: url("image/bgproject3.jpg");
-  margin: 10px;
-  border-radius: 20px;
-  background-size: 100% 100%;
-  margin-bottom: 50px;
-}
-.tombolview {
-  height: 30px;
-  width: 100px;
-  color: white;
-  margin: 10px;
-  background-color: #7165FF;
-  border-radius: 20px;
-}
-#coming-soon {
-  margin-bottom: 15px;
-}
-#coming-soon2 {
-  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 600px) {
