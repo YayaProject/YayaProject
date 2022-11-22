@@ -34,3 +34,9 @@ document.getElementById("tombol-about1").onclick = function() {
   'Project ini adalah kalkulator sederhana'
 )
   }
+document.getElementById("tombol-about4").onclick = function() {
+     Swal.fire(
+  'TicTacToe',
+  'Project ini adalah game tictactoe yang bisa dimainkan 2 player'
+)
+  }
