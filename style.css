@@ -191,9 +191,6 @@ header nav ul li a:hover{
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: sans-serif;
-}
 footer{
     pos
     bottom: 0;
@@ -226,6 +223,7 @@ footer{
     line-height: 28px;
     font-size: 16px;
     color: black;
+    font-family: 'Ubuntu', Sans-Serif;
 }
 .socials{
     list-style: none;
