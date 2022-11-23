@@ -280,25 +280,3 @@ padding-bottom: 25px;
     opacity: .4;
     font-weight: 200;
 }
-.footer-menu ul{
-  display: flex;
-}
-.footer-menu ul li{
-padding-right: 10px;
-display: block;
-}
-.footer-menu ul li{
-  color: #cfd2d6;
-  text-decoration: none;
-}
-.footer-menu ul li:hover{
-  color: #27bcda;
-}
-
-@media (max-width:600px) {
-.footer-menu ul{
-  display: flex;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-}
