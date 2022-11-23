@@ -52,3 +52,21 @@ document.getElementById("tombol-about6").onclick = function() {
   'Project ini adalah store top up game, voucher dan berlangganan aplikasi'
 )
   }
+document.getElementById("tombol-about7").onclick = function() {
+     Swal.fire(
+  'Game Tembak Burung',
+  'Project ini adalah game tembak burung yang dihitung top score waktu tercepatnya'
+)
+  }
+document.getElementById("tombol-about8").onclick = function() {
+     Swal.fire(
+  'Yaya Sedang',
+  'Project ini adalah to do list otomatis yang terkoneksi dengan jadwal mata pelajaran'
+)
+  }
+document.getElementById("tombol-about9").onclick = function() {
+     Swal.fire(
+  'Coming Soon,
+  '- Update project 1                       - Update UI/UX - Update responsif mode landscape'
+)
+  }
