@@ -14,7 +14,7 @@ body {
  background-repeat: no-repeat;
  margin-bottom: 0;
 }
-.font-univ .non-active {
+.font-univ, .non-active {
   font-family: 'Ubuntu', Sans-Serif;
 }
 #home {
