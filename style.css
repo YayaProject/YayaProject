@@ -261,9 +261,10 @@ padding-bottom: 25px;
     text-align: center;
 }
 .footer-bottom p{
-    font-size: 14px;
+    font-size: 16px;
     word-spacing: 2px;
     text-transform: capitalize;
+    font-family: 'Ubuntu', Sans-Serif;
 }
 .footer-bottom p{
   color: DodgerBlue;
