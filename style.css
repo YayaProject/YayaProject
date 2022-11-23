@@ -89,7 +89,7 @@ body {
 
 header {
     position: fixed;
-    background: #ffffff;
+    background: rgba(255,255,255,0.70);
     top: 0;
     left: 0;
     padding: 0 100px;
