@@ -224,7 +224,7 @@ footer{
     max-width: 500px;
     margin: 10px auto;
     line-height: 28px;
-    font-size: 14px;
+    font-size: 18px;
     color: black;
 }
 .socials{
@@ -242,15 +242,12 @@ footer{
     color: black;
     border: 1.1px solid black;
     padding: 5px;
-
     border-radius: 50%;
 
 }
 .socials a i{
     font-size: 1.1rem;
     width: 20px;
-
-
     transition: color .4s ease;
 
 }
