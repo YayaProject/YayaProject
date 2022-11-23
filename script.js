@@ -66,7 +66,7 @@ document.getElementById("tombol-about8").onclick = function() {
   }
 document.getElementById("tombol-about9").onclick = function() {
      Swal.fire(
-  'Coming Soon,
+  'Coming Soon',
   '- Update project 1                       - Update UI/UX - Update responsif mode landscape'
 )
   }
