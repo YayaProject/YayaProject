@@ -46,3 +46,9 @@ document.getElementById("tombol-about5").onclick = function() {
   'Project ini adalah konverter suhu otomatis semua suhu, yaitu celcius, fahrenheit, kelvin dan reamur'
 )
   }
+document.getElementById("tombol-about6").onclick = function() {
+     Swal.fire(
+  'YayaStore',
+  'Project ini adalah store top up game, voucher dan berlangganan aplikasi'
+)
+  }
