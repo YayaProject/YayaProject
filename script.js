@@ -40,3 +40,9 @@ document.getElementById("tombol-about4").onclick = function() {
   'Project ini adalah game tictactoe yang bisa dimainkan 2 player'
 )
   }
+document.getElementById("tombol-about5").onclick = function() {
+     Swal.fire(
+  'Konverter Suhu',
+  'Project ini adalah konverter suhu otomatis semua suhu, yaitu celcius, fahrenheit, kelvin dan reamur'
+)
+  }
