@@ -13,7 +13,9 @@ body {
  width: 100vw;
  background-repeat: no-repeat;
  margin-bottom: 0;
-  
+}
+.font-univ {
+  font-family: 'Ubuntu', Sans-Serif;
 }
 #home {
   margin-top: 60px;
