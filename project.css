@@ -105,7 +105,15 @@
   margin-bottom: 50px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 480px) {
+  .project {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
   .project {
     display: grid;
     grid-template-columns: repeat(1,1fr);
