@@ -1,14 +1,20 @@
+html {
+  font-family: sans-serif;
+}
 .tabel1 {
-	font-family: sans-serif;
 	border-collapse: collapse;
 }
 .tabel1,th,tr {
 	padding: 8px 20px;
 	border: 1px solid #999;
 }
+h1 {
+  font-family: 'Poppins', Sans-Serif;
+}
 .warna1 {
 	background-color: yellow;
 	font-size: 20px;
+	font-family: 'Poppins', Sans-Serif;
 }
 .warna2 {
 	background-color: blue;
@@ -16,9 +22,6 @@
 }
 .warna3 {
 	background-color: black;
-}
-h1 {
-	font-family: sans-serif;
 }
 
 @media screen and (max-width: 600px) {
