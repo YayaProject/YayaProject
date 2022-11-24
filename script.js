@@ -19,7 +19,7 @@ document.getElementById("tombolview").onclick = function() {
 document.getElementById("tombol-about1").onclick = function() {
      Swal.fire(
   'Jadwal Mata Pelajaran',
-  'Project ini berasal dari jadwal mata pelajaran kelas X Mipa 4'
+  'Project ini berasal dari jadwal mata pelajaran kelas XI Mipa 4'
 )
   }
   document.getElementById("tombol-about2").onclick = function() {
