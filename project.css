@@ -105,7 +105,7 @@
   margin-bottom: 50px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .project {
     display: grid;
     grid-template-columns: repeat(2,1fr);
