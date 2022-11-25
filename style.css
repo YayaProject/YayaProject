@@ -184,6 +184,9 @@ header nav ul li a:hover{
   .menu-toggle {
         display: none;
     }
+    header nav ul {
+        display: none;
+    }
 }
 
 *{
