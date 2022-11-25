@@ -144,8 +144,16 @@ header nav ul li a:hover{
 }
 
 /* responsive */
+@media (max-width: 600px) and (orientation : landscape) {
+  .menu-toggle {
+        display: none;
+    }
+    header nav ul {
+        display: none;
+    }
+}
 
-@media (max-width: 480px) {
+@media (max-width: 480px) and (orientation : portrait) {
     header {
         padding: 0 20px;
     }
@@ -177,15 +185,6 @@ header nav ul li a:hover{
         background: white;
         color: black;
         font-weight: bold;
-    }
-}
-
-@media (max-width: 600px) {
-  .menu-toggle {
-        display: none;
-    }
-    header nav ul {
-        display: none;
     }
 }
 
