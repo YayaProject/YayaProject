@@ -145,7 +145,7 @@ header nav ul li a:hover{
 
 /* responsive */
 
-@media (min-width: 480px) {
+@media (max-width: 480px) {
     header {
         padding: 0 20px;
     }
