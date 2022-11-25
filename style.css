@@ -145,7 +145,7 @@ header nav ul li a:hover{
 
 /* responsive */
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     header {
         padding: 0 20px;
     }
@@ -180,7 +180,11 @@ header nav ul li a:hover{
     }
 }
 
-
+@media (min-width: 320px) {
+  .menu-toggle {
+        display: none;
+    }
+}
 
 *{
     margin: 0;
