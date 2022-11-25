@@ -144,7 +144,7 @@ header nav ul li a:hover{
 }
 
 /* responsive */
-@media (max-width: 600px) and (orientation : landscape) {
+@media (max-width: 768px) and (orientation : landscape) {
   .menu-toggle {
         display: none;
     }
