@@ -145,11 +145,37 @@ header nav ul li a:hover{
 
 /* responsive */
 @media (max-width: 768px) and (orientation : landscape) {
-    header nav ul {
-        display: none;
+    header {
+        padding: 0 20px;
     }
-        .menu-toggle {
+
+    .menu-toggle {
         display: block;
+    }
+
+    header nav {
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 50px);
+        top: 60px;
+        right: -100%;
+        transition: 0.5s all;
+    }
+
+    header nav.active {
+        right: 0;
+    }
+
+    header nav ul {
+        display: block;
+        text-align: center;
+    }
+    header nav ul li a {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        background: white;
+        color: black;
+        font-weight: bold;
     }
 }
 
