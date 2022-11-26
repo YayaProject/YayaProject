@@ -1,0 +1,35 @@
+html {
+  font-family: sans-serif;
+}
+.tabel1 {
+	border-collapse: collapse;
+	margin-bottom: 50%;
+}
+.tabel1,th,tr {
+	padding: 8px 20px;
+	border: 1px solid #999;
+}
+h1 {
+  font-family: 'Poppins', Sans-Serif;
+}
+.warna1 {
+	background-color: LightGrey;
+	font-size: 20px;
+	font-family: 'Poppins', Sans-Serif;
+}
+
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 15px;
+	}
+	.tabel1,th,tr {
+		padding: 4px 4px;
+		border: 1px solid #999;
+	}
+	tr {
+		font-size: 7px;
+	}
+	.warna1 {
+		font-size: 7px;
+	}
+}
