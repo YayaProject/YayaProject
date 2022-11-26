@@ -113,7 +113,8 @@
   }
 }
 
-@media (max-width: 240px) and (orientation : portrait) {
+@media (max-width: 600px) and (orientation : portrait) {
+  .project {
     display: grid;
     grid-template-columns: repeat(1,1fr);
     justify-items: center;
