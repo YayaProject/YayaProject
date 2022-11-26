@@ -148,6 +148,9 @@ header nav ul li a:hover{
     header nav ul {
         display: none;
     }
+        .menu-toggle {
+        display: block;
+    }
 }
 
 @media (max-width: 480px) and (orientation : portrait) {
