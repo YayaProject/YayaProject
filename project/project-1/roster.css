@@ -5,7 +5,7 @@ html {
 	border-collapse: collapse;
 }
 .tabel1,th,tr {
-	padding: 8px 50px;
+	padding: 8px 20px;
 	border: 1px solid #999;
 }
 h1 {
@@ -29,7 +29,7 @@ h1 {
 		font-size: 15px;
 	}
 	.tabel1,th,tr {
-		padding: 4px 10px;
+		padding: 4px 8px;
 		border: 1px solid #999;
 	}
 	tr {
