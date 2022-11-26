@@ -148,6 +148,9 @@ header nav ul li a:hover{
   #yaya-logo {
     display: none;
   }
+  #home-head {
+    margin-top: 50px;
+  }
     header {
         padding: 0 60px;
     }
