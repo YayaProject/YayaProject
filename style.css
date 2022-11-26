@@ -149,7 +149,7 @@ header nav ul li a:hover{
     display: none;
   }
   #home-head {
-    margin-top: 100px;
+    padding-top: 50px;
   }
     header {
         padding: 0 60px;
