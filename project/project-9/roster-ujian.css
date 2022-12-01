@@ -3,11 +3,22 @@ html {
 }
 .tabel1 {
 	border-collapse: collapse;
-	margin-bottom: 50%;
+	margin-bottom: 15%;
 }
-.tabel1,th,tr {
+.tabel1 {
 	padding: 8px 20px;
-	border: 1px solid #999;
+	border: 2px solid black;
+}
+th,tr {
+  padding: 8px 20px;
+}
+th {
+  border-top: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+}
+.line-top {
+  border-top: 2px solid;
 }
 h1 {
   font-family: 'Poppins', Sans-Serif;
@@ -23,8 +34,7 @@ h1 {
 		font-size: 15px;
 	}
 	.tabel1,th,tr {
-		padding: 4px 4px;
-		border: 1px solid #999;
+		padding: 4px 3px;
 	}
 	tr {
 		font-size: 7px;
