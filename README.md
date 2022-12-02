@@ -92,9 +92,9 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 ## Contact
 
-Your Name - [@yaya_0712](https://twitter.com/your_username) - yayagm0712@gmail.com
+Nurhidayat - [@yaya_project12](https://www.instagram.com/yaya_project12/) - yayagm0712@gmail.com
 
-Project Link: [https://github.com/YayaProject/YayaProject](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/YayaProject/YayaProject](https://github.com/YayaProject/YayaProject)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
