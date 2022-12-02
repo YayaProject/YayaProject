@@ -129,5 +129,5 @@ Use this space to list resources you find helpful and would like to give credit 
 [stars-url]: https://github.com/YayaProject/YayaProject/stargazers
 [issues-shield]: https://img.shields.io/github/issues/YayaProject/YayaProject.svg?style=for-the-badge
 [issues-url]: https://github.com/YayaProject/YayaProject/issues
-[product-screenshot]: image/screenshot.jpg
+[product-screenshot]: image/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
