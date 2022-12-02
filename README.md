@@ -107,12 +107,10 @@ Use this space to list resources you find helpful and would like to give credit 
 
 * [Netlify](https://www.netlify.com/)
 * [Haikei](https://haikei.app/)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
+* [Google Fonts](https://fonts.google.com/)
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
