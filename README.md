@@ -18,7 +18,7 @@
   <h3 align="center">Yaya Project</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Website project HTML, CSS and JavaScript programming languages
     <br />
     <a href="https://github.com/YayaProject/YayaProject"><strong>Explore the docs »</strong></a>
     <br />
