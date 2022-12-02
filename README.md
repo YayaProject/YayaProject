@@ -76,8 +76,8 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
+- [x] Add Responsif
+- [x] Add some project
 - [ ] Add Additional Templates w/ Examples
 - [ ] Add "components" document to easily copy & paste sections of the readme
 - [ ] Multi-language Support
@@ -110,7 +110,7 @@ Use this space to list resources you find helpful and would like to give credit 
 * [Google Fonts](https://fonts.google.com/)
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
-
+* [Sweet Alert](https://sweetalert2.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
