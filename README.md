@@ -78,11 +78,9 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 - [x] Add Responsif
 - [x] Add some project
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [ ] Update all projects
+- [ ] Add info of each project
+
 
 See the [open issues](https://github.com/YayaProject/YayaProject/issues) for a full list of proposed features (and known issues).
 
