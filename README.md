@@ -11,7 +11,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/YayaProject/YayaProject">
     <img src="image/logo.png" alt="Logo" width="200" height="200">
   </a>
 
@@ -84,7 +84,7 @@ Of course, no one template will serve all projects since your needs may be diffe
     - [ ] Chinese
     - [ ] Spanish
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/YayaProject/YayaProject/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
