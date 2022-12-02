@@ -50,7 +50,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-    <img src="image/screenshot.jpg" alt="Logo" width="200" height="200">
+
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
@@ -129,3 +129,5 @@ Use this space to list resources you find helpful and would like to give credit 
 [stars-url]: https://github.com/YayaProject/YayaProject/stargazers
 [issues-shield]: https://img.shields.io/github/issues/YayaProject/YayaProject.svg?style=for-the-badge
 [issues-url]: https://github.com/YayaProject/YayaProject/issues
+[product-screenshot]: image/screenshot.jpg
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
