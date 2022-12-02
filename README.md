@@ -123,9 +123,9 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/YayaProject/YayaProject.svg?style=for-the-badge
 [contributors-url]: https://github.com/YayaProject/YayaProject/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/YayaProject/YayaProject.svg?style=for-the-badge
 [forks-url]: https://github.com/YayaProject/YayaProject/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/YayaProject/YayaProject.svg?style=for-the-badge
 [stars-url]: https://github.com/YayaProject/YayaProject/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[issues-shield]: https://img.shields.io/github/issues/YayaProject/YayaProject.svg?style=for-the-badge
+[issues-url]: https://github.com/YayaProject/YayaProject/issues
