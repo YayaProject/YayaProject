@@ -7,6 +7,7 @@ body {
 }
 #bg-blue {
   background-image: url('image/bg-head.svg');
+  background-color: #004cbb;
   background-size: cover;
  background-position: center;
  height: 100vh;
