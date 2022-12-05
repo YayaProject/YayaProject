@@ -66,6 +66,12 @@ document.getElementById("tombol-about8").onclick = function() {
   }
 document.getElementById("tombol-about9").onclick = function() {
      Swal.fire(
+  'Roster Ujian',
+  'Project ini adalah roster ujian semester 1 kelas xi mipa'
+)
+  }
+document.getElementById("tombol-about-coming").onclick = function() {
+     Swal.fire(
   'Coming Soon',
   'Update project 1, UI/UX, dan responsif mode landscape'
 )
