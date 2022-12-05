@@ -63,7 +63,8 @@
 .project2{
   height: 320px;
   width: 320px;
-  background: url("image/bg2.svg");
+  background-color: LightGrey;
+  background-image: url("image/bg2.svg");
   margin: 10px;
   border-radius: 20px;
   background-size: 100% 100%;
@@ -72,7 +73,8 @@
 .project3{
   height: 320px;
   width: 320px;
-  background: url("image/bg3.svg");
+  background-color: LightGrey;
+  background-image: url("image/bg3.svg");
   margin: 10px;
   border-radius: 20px;
   background-size: 100% 100%;
@@ -81,7 +83,8 @@
 .project4{
   height: 320px;
   width: 320px;
-  background: url("image/bg4.svg");
+  background-color: LightGrey;
+  background-image: url("image/bg4.svg");
   margin: 10px;
   border-radius: 20px;
   background-size: 100% 100%;
@@ -90,7 +93,8 @@
 .project5{
   height: 320px;
   width: 320px;
-  background: url("image/bg5.svg");
+  background-color: LightGrey;
+  background-image: url("image/bg5.svg");
   margin: 10px;
   border-radius: 20px;
   background-size: 100% 100%;
@@ -99,7 +103,8 @@
 .project6{
   height: 320px;
   width: 320px;
-  background: url("image/bg6.svg");
+  background-color: LightGrey;
+  background-image: url("image/bg6.svg");
   margin: 10px;
   border-radius: 20px;
   background-size: 100% 100%;
