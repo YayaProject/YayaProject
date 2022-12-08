@@ -3,11 +3,11 @@ html {
 }
 body {
  background-color: #181535;
- color: white;
+ color: #181535;
 }
 #bg-blue {
   background-image: url('image/bg-head.svg');
-  background-color: #004cbb;
+  background-color: white;
   background-size: cover;
  background-position: center;
  height: 100vh;
@@ -36,13 +36,16 @@ h1 {
 #home-head {
   font-size: 40px;
 }
+#yaya-logo {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
 h6 {
   color: grey;
   margin-top: 0;
   margin-bottom: 15px;
 }
 .get-apk {
-  color: white;
   background-color: rgba(0,0,0,0);
   height: auto;
   width: auto;
@@ -52,11 +55,11 @@ h6 {
   font-family: 'Ubuntu', Sans-Serif;
   font-size: 17px;
   font-weight: bold;
-  border: 2px solid white;
+  border: 2px solid #181535;
 }
 .get-apk:hover {
-  background-color: white;
-  color: black;
+  background-color: #181535;
+  color: white;
 }
 details {
  font-family: sans-serif;
@@ -72,7 +75,7 @@ ul{
  color: white;
 }
 a {
- color: white;
+ color: #181535;
 }
 body {
     margin: 0;
@@ -86,7 +89,7 @@ body {
 
 header {
     position: fixed;
-    background: rgba(255,255,255,0.90);
+    background: #181535;
     top: 0;
     left: 0;
     padding: 0 100px;
@@ -95,7 +98,7 @@ header {
 }
 
 header .logo {
-    color: black;
+    color: white;
     height: 60px;
     line-height: 60px;
     font-size: 24px;
@@ -121,7 +124,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: black;
+    color: white;
     height: 60px;
     line-height: 60px;
     padding: 0 20px;
@@ -131,12 +134,12 @@ header nav ul li a {
 }
 
 header nav ul li a:hover{
-    color: white;
+    color: #181535;
     background-color: DodgerBlue;
 }
 
 .menu-toggle {
-    color: black;
+    color: white;
     float: right;
     line-height: 50px;
     font-size: 24px;
@@ -178,10 +181,8 @@ header nav ul li a:hover{
         text-align: center;
     }
     header nav ul li a {
-        border-top: 1px solid black;
-        border-bottom: 1px solid black;
-        background: white;
-        color: black;
+        background: #181535;
+        color: white;
         font-weight: bold;
     }
 }
@@ -213,10 +214,8 @@ header nav ul li a:hover{
         text-align: center;
     }
     header nav ul li a {
-        border-top: 1px solid black;
-        border-bottom: 1px solid black;
-        background: white;
-        color: black;
+        background: #181535;
+        color: white;
         font-weight: bold;
     }
 }
@@ -234,7 +233,7 @@ footer{
     background: white;
     height: auto;
     width: 100vw;
-    color: black;
+    color: #181535;
 }
 #about {
   margin-top: 0;
@@ -257,7 +256,7 @@ footer{
     margin: 10px auto;
     line-height: 28px;
     font-size: 16px;
-    color: black;
+    color: #181535;
     font-family: 'Ubuntu', Sans-Serif;
 }
 .socials{
@@ -272,8 +271,8 @@ footer{
 }
 .socials a{
     text-decoration: none;
-    color: black;
-    border: 1.1px solid black;
+    color: #181535;
+    border: 1.1px solid #181535;
     padding: 5px;
     border-radius: 50%;
 

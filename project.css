@@ -6,7 +6,7 @@
   
 }
 .textProject {
-  color: black;
+  color: #181535;
   font-family: 'Poppins', Sans-Serif;
   font-size: 20px;
   margin-top: 10px;
@@ -20,7 +20,7 @@
   margin: 10px 4px;
   background-color: rgba(0,0,0,0);
   border-radius: 20px;
-  border: 2px solid black;
+  border: 2px solid #181535;
   transition-duration: 0.4s;
   font-family: 'Ubuntu', Sans-Serif;
 }
@@ -32,7 +32,7 @@
   margin: 10px 4px;
   background-color: rgba(0,0,0,0);
   border-radius: 20px;
-  border: 2px solid black;
+  border: 2px solid #181535;
   transition-duration: 0.4s;
 }
 .tombol-about:hover {
