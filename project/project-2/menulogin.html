@@ -64,13 +64,6 @@
     <br />
     <br />
     <script type="text/javascript">
-    document.getElementById("popup").onclick = function () {
-  Swal.fire({
-    title: 'Lupa Password', 
-    text: 'Gini doang di lupain', 
-    icon: 'question'
-  })
-};
 document.getElementById("kolom2").onclick = function () {
   Swal.fire({
   position: 'top-end',
@@ -79,6 +72,13 @@ document.getElementById("kolom2").onclick = function () {
   showConfirmButton: false,
   timer: 1500
 })
+};
+document.getElementById("popup").onclick = function () {
+  Swal.fire({
+    title: 'Lupa Password', 
+    text: 'Gini doang di lupain', 
+    icon: 'question'
+  })
 };
     </script>
   </body>
