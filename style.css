@@ -1,37 +1,37 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 body {
- background-color: #181535;
- color: #181535;
+  background-color: #181535;
+  color: #181535;
 }
 #bg-blue {
-  background-image: url('image/bg-head.svg');
+  background-image: url("image/bg-head.svg");
   background-color: white;
   background-size: cover;
- background-position: center;
- height: 100vh;
- width: 100vw;
- background-repeat: no-repeat;
- margin-bottom: 0;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
 }
-.font-univ, .non-active {
-  font-family: 'Ubuntu', Sans-Serif;
+.font-univ,
+.non-active {
+  font-family: "Ubuntu", Sans-Serif;
 }
 #home {
   margin-top: 60px;
 }
 .bg-line {
- margin-top: 0;
- margin-bottom: 0;
- padding-bottom: 0;
- height: auto;
- width: 100%;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: 100%;
 }
 h1 {
- font-family: 'Poppins',sans-serif;
- margin-bottom: 0;
- margin-top: 0;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 #home-head {
   font-size: 40px;
@@ -46,13 +46,13 @@ h6 {
   margin-bottom: 15px;
 }
 .get-apk {
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
   height: auto;
   width: auto;
   margin: 20px;
   padding: 10px 20px;
   border-radius: 10px;
-  font-family: 'Ubuntu', Sans-Serif;
+  font-family: "Ubuntu", Sans-Serif;
   font-size: 17px;
   font-weight: bold;
   border: 2px solid #181535;
@@ -62,251 +62,247 @@ h6 {
   color: white;
 }
 details {
- font-family: sans-serif;
- border-radius: 10px;
- background-color: black;
- border: solid;
- color: white;
+  font-family: sans-serif;
+  border-radius: 10px;
+  background-color: black;
+  border: solid;
+  color: white;
 }
-ul{
- color: white;
+ul {
+  color: white;
 }
 .menu {
- color: white;
+  color: white;
 }
 a {
- color: #181535;
+  color: #181535;
 }
 body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 header {
-    position: fixed;
-    background: #181535;
-    top: 0;
-    left: 0;
-    padding: 0 100px;
-    width: 100%;
-    box-sizing: border-box;
+  position: fixed;
+  background: #181535;
+  top: 0;
+  left: 0;
+  padding: 0 100px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 header .logo {
-    color: white;
-    height: 60px;
-    line-height: 60px;
-    font-size: 24px;
-    font-family: 'Poppins', Sans-Serif;
-    float: left;
-    font-weight: bold;
+  color: white;
+  height: 60px;
+  line-height: 60px;
+  font-size: 24px;
+  font-family: "Poppins", Sans-Serif;
+  float: left;
+  font-weight: bold;
 }
 #yaya-text {
   color: DodgerBlue;
 }
 header nav {
-    float: right;
+  float: right;
 }
 
 header nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 header nav ul li {
-    list-style: none;
+  list-style: none;
 }
 
 header nav ul li a {
-    color: white;
-    height: 60px;
-    line-height: 60px;
-    padding: 0 20px;
-    text-decoration: none;
-    display: block;
-    font-weight: bold;
+  color: white;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 20px;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
 }
 
-header nav ul li a:hover{
-    color: #181535;
-    background-color: DodgerBlue;
+header nav ul li a:hover {
+  color: #181535;
+  background-color: DodgerBlue;
 }
 
 .menu-toggle {
-    color: white;
-    float: right;
-    line-height: 50px;
-    font-size: 24px;
-    cursor: pointer;
-    display: none;
+  color: white;
+  float: right;
+  line-height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
 }
 
 /* responsive */
-@media (max-width: 768px) and (orientation : landscape) {
+@media (max-width: 768px) and (orientation: landscape) {
   #yaya-logo {
     display: none;
   }
   #home-head {
     padding-top: 50px;
   }
-    header {
-        padding: 0 60px;
-    }
+  header {
+    padding: 0 60px;
+  }
 
-    .menu-toggle {
-        display: block;
-    }
+  .menu-toggle {
+    display: block;
+  }
 
-    header nav {
-        position: absolute;
-        width: 100%;
-        height: calc(100vh - 50px);
-        top: 60px;
-        right: -100%;
-        transition: 0.5s all;
-    }
+  header nav {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 50px);
+    top: 60px;
+    right: -100%;
+    transition: 0.5s all;
+  }
 
-    header nav.active {
-        right: 0;
-    }
-
-    header nav ul {
-        display: block;
-        text-align: center;
-    }
-    header nav ul li a {
-        background: #181535;
-        color: white;
-        font-weight: bold;
-    }
-}
-
-@media (max-width: 480px) and (orientation : portrait) {
-    header {
-        padding: 0 20px;
-    }
-
-    .menu-toggle {
-        display: block;
-    }
-
-    header nav {
-        position: absolute;
-        width: 100%;
-        height: calc(100vh - 50px);
-        top: 60px;
-        right: -100%;
-        transition: 0.5s all;
-    }
-
-    header nav.active {
-        right: 0;
-    }
-
-    header nav ul {
-        display: block;
-        text-align: center;
-    }
-    header nav ul li a {
-        background: #181535;
-        color: white;
-        font-weight: bold;
-    }
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-footer{
-    pos
-    bottom: 0;
-    left: 0;
+  header nav.active {
     right: 0;
-    background: white;
-    height: auto;
-    width: 100vw;
-    color: #181535;
-}
-#about {
-  margin-top: 0;
-}
-.footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  }
+
+  header nav ul {
+    display: block;
     text-align: center;
-}
-.footer-content h3{
-    font-size: 2.1rem;
-    font-weight: 500;
-    text-transform: capitalize;
-    line-height: 3rem;
-}
-.footer-content p{
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 16px;
-    color: #181535;
-    font-family: 'Ubuntu', Sans-Serif;
-}
-.socials{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem 0;
-}
-.socials li{
-    margin: 0 10px;
-}
-.socials a{
-    text-decoration: none;
-    color: #181535;
-    border: 1.1px solid #181535;
-    padding: 5px;
-    border-radius: 50%;
-
-}
-.socials a i{
-    font-size: 1.1rem;
-    width: 20px;
-    transition: color .4s ease;
-
-}
-.socials a:hover i{
-    color: DodgerBlue;
-}
-
-.footer-bottom{
+  }
+  header nav ul li a {
     background: #181535;
-    width: 100vw;
-    padding: 20px;
-padding-bottom: 25px;
+    color: white;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 480px) and (orientation: portrait) {
+  header {
+    padding: 0 20px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  header nav {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 50px);
+    top: 60px;
+    right: -100%;
+    transition: 0.5s all;
+  }
+
+  header nav.active {
+    right: 0;
+  }
+
+  header nav ul {
+    display: block;
     text-align: center;
+  }
+  header nav ul li a {
+    background: #181535;
+    color: white;
+    font-weight: bold;
+  }
 }
-.footer-bottom p{
-    font-size: 16px;
-    word-spacing: 2px;
-    text-transform: capitalize;
-    font-family: 'Ubuntu', Sans-Serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.footer-bottom p{
+footer {
+  position: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  height: auto;
+  width: 100vw;
+  color: #181535;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 0px auto 10px auto;
+  line-height: 28px;
+  font-size: 16px;
+  color: #181535;
+  font-family: "Ubuntu", Sans-Serif;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials a {
+  text-decoration: none;
+  color: #181535;
+  border: 1.1px solid #181535;
+  padding: 5px;
+  border-radius: 50%;
+}
+.socials a i {
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color 0.4s ease;
+}
+.socials a:hover i {
+  color: DodgerBlue;
+}
+
+.footer-bottom {
+  background: #181535;
+  width: 100vw;
+  padding: 20px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+.footer-bottom p {
+  font-size: 16px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  font-family: "Ubuntu", Sans-Serif;
+}
+.footer-bottom p {
   color: DodgerBlue;
   font-size: 16px;
   text-decoration: none;
 }
-.footer-bottom span{
-    text-transform: uppercase;
-    opacity: .4;
-    font-weight: 200;
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
 }

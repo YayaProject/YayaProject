@@ -2,14 +2,15 @@ html {
   font-family: sans-serif;
 }
 .tabel1 {
-	border-collapse: collapse;
-	margin-bottom: 15%;
+  border-collapse: collapse;
+  margin-bottom: 15%;
 }
 .tabel1 {
-	padding: 8px 20px;
-	border: 2px solid black;
+  padding: 8px 20px;
+  border: 2px solid black;
 }
-th,tr {
+th,
+tr {
   padding: 8px 20px;
 }
 th {
@@ -21,25 +22,27 @@ th {
   border-top: 2px solid;
 }
 h1 {
-  font-family: 'Poppins', Sans-Serif;
+  font-family: "Poppins", Sans-Serif;
 }
 .warna1 {
-	background-color: LightGrey;
-	font-size: 20px;
-	font-family: 'Poppins', Sans-Serif;
+  background-color: LightGrey;
+  font-size: 20px;
+  font-family: "Poppins", Sans-Serif;
 }
 
 @media screen and (max-width: 600px) {
-	h1 {
-		font-size: 15px;
-	}
-	.tabel1,th,tr {
-		padding: 4px 3px;
-	}
-	tr {
-		font-size: 7px;
-	}
-	.warna1 {
-		font-size: 7px;
-	}
+  h1 {
+    font-size: 15px;
+  }
+  .tabel1,
+  th,
+  tr {
+    padding: 4px 3px;
+  }
+  tr {
+    font-size: 7px;
+  }
+  .warna1 {
+    font-size: 7px;
+  }
 }

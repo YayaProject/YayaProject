@@ -1,13 +1,12 @@
 .project {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   margin-bottom: 7%;
-  
 }
 .textProject {
   color: #181535;
-  font-family: 'Poppins', Sans-Serif;
+  font-family: "Poppins", Sans-Serif;
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 0;
@@ -18,11 +17,11 @@
   color: black;
   font-weight: bold;
   margin: 10px 4px;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
   border-radius: 20px;
   border: 2px solid #181535;
   transition-duration: 0.4s;
-  font-family: 'Ubuntu', Sans-Serif;
+  font-family: "Ubuntu", Sans-Serif;
 }
 .tombol-about {
   height: 30px;
@@ -30,7 +29,7 @@
   color: black;
   font-weight: bold;
   margin: 10px 4px;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
   border-radius: 20px;
   border: 2px solid #181535;
   transition-duration: 0.4s;
@@ -49,61 +48,61 @@
 #coming-soon2 {
   margin-bottom: 10px;
 }
-.project1{
+.project1 {
   text-align: center;
   height: 320px;
   width: 320px;
-  background-color: #E9EAEE;
+  background-color: #e9eaee;
   background-image: url("image/bg1.svg");
   margin: 10px;
   border-radius: 20px;
   background-size: 100% 100%;
   margin-bottom: 50px;
 }
-.project2{
+.project2 {
   height: 320px;
   width: 320px;
-  background-color: #E9EAEE;
+  background-color: #e9eaee;
   background-image: url("image/bg2.svg");
   margin: 10px;
   border-radius: 20px;
   background-size: 100% 100%;
   margin-bottom: 50px;
 }
-.project3{
+.project3 {
   height: 320px;
   width: 320px;
-  background-color: #E9EAEE;
+  background-color: #e9eaee;
   background-image: url("image/bg3.svg");
   margin: 10px;
   border-radius: 20px;
   background-size: 100% 100%;
   margin-bottom: 50px;
 }
-.project4{
+.project4 {
   height: 320px;
   width: 320px;
-  background-color: #E9EAEE;
+  background-color: #e9eaee;
   background-image: url("image/bg4.svg");
   margin: 10px;
   border-radius: 20px;
   background-size: 100% 100%;
   margin-bottom: 50px;
 }
-.project5{
+.project5 {
   height: 320px;
   width: 320px;
-  background-color: #E9EAEE;
+  background-color: #e9eaee;
   background-image: url("image/bg5.svg");
   margin: 10px;
   border-radius: 20px;
   background-size: 100% 100%;
   margin-bottom: 50px;
 }
-.project6{
+.project6 {
   height: 320px;
   width: 320px;
-  background-color: #E9EAEE;
+  background-color: #e9eaee;
   background-image: url("image/bg6.svg");
   margin: 10px;
   border-radius: 20px;
@@ -111,18 +110,18 @@
   margin-bottom: 50px;
 }
 
-@media (max-width: 768px) and (orientation : landscape) {
+@media (max-width: 768px) and (orientation: landscape) {
   .project {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-items: center;
   }
 }
 
-@media (max-width: 600px) and (orientation : portrait) {
+@media (max-width: 600px) and (orientation: portrait) {
   .project {
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
     justify-items: center;
   }
 }

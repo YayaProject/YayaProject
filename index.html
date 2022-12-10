@@ -1,175 +1,318 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="theme-color" content="#181535" />
+    <title>YAYA PROJECT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Ubuntu&display=swap"
+      rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="image/icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="project.css" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="jquery.js"></script>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <meta name="theme-color" content="#181535">
-  <title>YAYA PROJECT</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Ubuntu&display=swap" rel="stylesheet">
-  <link href="style.css" rel="stylesheet" type="text/css">
-  <link rel= "icon" href="image/icon.png" >
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="project.css">
-  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  <script src="jquery.js"></script>
-</head>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-CGKTDTK7Y7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CGKTDTK7Y7"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    gtag("config", "G-CGKTDTK7Y7");
+  </script>
 
-  gtag('config', 'G-CGKTDTK7Y7');
-  
-</script>
-
-<body>
-  <div id="home"></div>
-  <header>
-        <div class="logo"><span id="yaya-text">YAYA</span> PROJECT</div>
-        <nav>
-            <ul>
-                <li><a href="#home" class="non-active"><i class="fa fa-home"></i> Home</a></li>
-                <li><a href="#about" class="non-active"><i class="fa fa-tag"></i> About</a></li>
-                <li><a href="#project" class="non-active"><i class="fa fa-code"></i> Project</a></li>
-                <li><a href="#about" class="non-active"><i class="fa fa-address-book-o"></i> Contact</a></li>
-            </ul>
-        </nav>
-        <div class="menu-toggle">
-            <i class="fa fa-bars"></i>
-        </div>
+  <body>
+    <div id="home"></div>
+    <header>
+      <div class="logo"><span id="yaya-text">YAYA</span> PROJECT</div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#home" class="non-active"
+              ><i class="fa fa-home"></i> Home</a
+            >
+          </li>
+          <li>
+            <a href="#about" class="non-active"
+              ><i class="fa fa-tag"></i> About</a
+            >
+          </li>
+          <li>
+            <a href="#project" class="non-active"
+              ><i class="fa fa-code"></i> Project</a
+            >
+          </li>
+          <li>
+            <a href="#about" class="non-active"
+              ><i class="fa fa-address-book-o"></i> Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="menu-toggle">
+        <i class="fa fa-bars"></i>
+      </div>
     </header>
-  <section id="bg-blue">
-<center>
-<div>
-<img  src="image/logo.png" height="220px" widht="220px" id="yaya-logo">
-<h1 id="home-head">WELCOME TO</h1>
-<h1>YAYA PROJECT</h1>
-<a href= "https://drive.google.com/file/d/13gMsNvdGQ04Pj30E9T5T-JjBmsmUVKhI/view?usp=drivesdk"><button class= "get-apk">GET APK</button></a>
- <p class="font-univ">Need help? Contact Developer <a href="https://wa.me/6285211060484"><strong>Here</strong></a></p>
- 
-</div>
+    <section id="bg-blue">
+      <center>
+        <img src="image/logo.png" height="220px" widht="220px" id="yaya-logo" />
+        <h1 id="home-head">WELCOME TO</h1>
+        <h1>YAYA PROJECT</h1>
+        <a
+          href="https://drive.google.com/file/d/13gMsNvdGQ04Pj30E9T5T-JjBmsmUVKhI/view?usp=drivesdk"
+          ><button class="get-apk">GET APK</button></a
+        >
+        <p class="font-univ">
+          Need help? Contact Developer
+          <a href="https://wa.me/6285211060484"><strong>Here</strong></a>
+        </p>
+      </center>
+    </section>
 
-</section>
-<img  src="image/bg-line.svg" class="bg-line" id="project">
-<center>
-  <section class = "project">
-   <div class= "project1">
-     <h3 class="textProject">Jadwal Mata Pelajaran</h3>
-     <h6 class="font-univ"><i class= "fa fa-clock-o"></i> 18 September 2022</h6>
-   <img src= "project/project-1/roster.jpg" height= "200px" widht= "200px" align= "center">
-   <br>
-   <a href="project/project-1/roster.html" target="_blank"><button class="tombolview">Lihat</button></a>
-   <button id="tombol-about1" class="tombol-about"><i class="fa fa-info"></i></button>
-   </div>
-   
-
-   <div class= "project2">
-     <h3 class="textProject">Menu Login</h3>
-     <h6 class="font-univ"><i class= "fa fa-clock-o"></i> 20 September 2022</h6>
-   <img src= "project/project-2/menu-login.jpg" height= "200px" widht= "200px" align= "center">
-   <br>
-   <a href="project/project-2/menulogin.html" target="_blank"><button class="tombolview">Lihat</button></a>
-   <button id="tombol-about2" class="tombol-about"><i class="fa fa-info"></i></button>
-   </div>
-    
-
-    <div class= "project3">
-     <h3 class="textProject">Kalkulator</h3>
-      <h6 class="font-univ"><i class= "fa fa-clock-o"></i> 28 September 2022</h6>
-   <img src= "project/project-3/kalkulator.jpg" height= "200px" widht= "200px" align= "center">
-   <br>
-   <a href= "project/project-3/kalkulator.html" target="_blank"><button class="tombolview">Lihat</button></a>
-   <button id="tombol-about3" class="tombol-about"><i class="fa fa-info"></i></button>
-   </div>
-
-  <div class= "project4">
-     <h3 class="textProject">Game TicTacToe</h3>
-    <h6 class="font-univ"><i class= "fa fa-clock-o"></i> 5 Oktober 2022</h6>
-   <img src= "project/project-4/tictactoe.jpg" height= "200px" widht= "200px" align= "center">
-   <br>
-  <a href="project/project-4/game.html" target="_blank"><button class="tombolview">Lihat</button></a>
-  <button id="tombol-about4" class="tombol-about"><i class="fa fa-info"></i></button>
-   </div>
-
-    <div class= "project5">
-     <h3 class="textProject">Konverter Suhu</h3>
-      <h6 class="font-univ"><i class= "fa fa-clock-o"></i> 8 Oktober 2022</h6>
-   <img src= "project/project-5/konverter-suhu.jpg" height= "200px" widht= "200px" align= "center">
-   <br>
-  <a href="project/project-5/konverter.html" target="_blank"><button class="tombolview">Lihat</button></a>
-<button id="tombol-about5" class="tombol-about"><i class="fa fa-info"></i></button>
-   </div>
-
-    <div class= "project6">
-     <h3 class="textProject">Yaya Store</h3>
-      <h6 class="font-univ"><i class= "fa fa-clock-o"></i> 18 Oktober 2022</h6>
-   <img src= "project/project-6/yaya-store.jpg" height= "200px" widht= "200px" align= "center">
-   <br>
-  <a href="project/project-6/index.html" target="_blank"><button class="tombolview">Lihat</button></a>
-  <button id="tombol-about6" class="tombol-about"><i class="fa fa-info"></i></button>
-   </div>
-
-    <div class= "project1">
-     <h3 class="textProject">Game Tembak Burung</h3>
-      <h6 class="font-univ"><i class= "fa fa-clock-o"></i> 31 Oktober 2022</h6>
-   <img src= "project/project-7/tembakburung.jpg" height= "200px" widht= "200px" align= "center">
-   <br>
-  <a href="project/project-7/game2.html" target="_blank"><button class="tombolview">Lihat</button></a>
-  <button id="tombol-about7" class="tombol-about"><i class="fa fa-info"></i></button>
-   </div>
-
-    <div class= "project2">
-     <h3 class="textProject">Yaya Sedang</h3>
-      <h6 class="font-univ"><i class= "fa fa-clock-o"></i> 14 November 2022</h6>
-   <img src= "project/project-8/yaya-sedang.jpg" height= "200px" widht= "200px" align= "center">
-   <br>
-  <a href="project/project-8/yaya-sedang.html" target="_blank"><button class="tombolview">Lihat</button></a>
-  <button id="tombol-about8" class="tombol-about"><i class="fa fa-info"></i></button>
-   </div>
-   
-       <div class= "project3">
-     <h3 class="textProject">Roster Ujian</h3>
-      <h6 class="font-univ"><i class= "fa fa-clock-o"></i> 26 November 2022</h6>
-   <img src= "project/project-9/roster-ujian.jpg" height= "200px" widht= "200px" align= "center">
-   <br>
-  <a href="project/project-9/roster-ujian.html" target="_blank"><button class="tombolview">Lihat</button></a>
-  <button id="tombol-about9" class="tombol-about"><i class="fa fa-info"></i></button>
-   </div>
-    
-    <div class= "project4">
-     <h3 class="textProject" id="coming-soon">Coming soon!</h3>
-   <img src= "project/project-coming-soon/comingsoon.png" height= "200px" widht= "200px" align= "center" id="coming-soon2">
-   <br>
-   <button class="tombolview" id= "tombolview">Lihat</button>
-   <button id="tombol-about-coming" class="tombol-about"><i class="fa fa-info"></i></button>
-   </div>
-  </section>
-  </center>
-   <footer id= "about">
-      <img  src="image/bg-line1.svg" class="bg-line">
-        <div class="footer-content">
-            <h1>ABOUT</h1>
-            <p>"Yaya Project " is a simple website created to increase knowledge about programming languages. This website only consists of three programming languages, namely HTML, CSS and JavaScript. This website also contains various projects originating from various case studies.</p>
-            <ul class="socials">
-                <li><a href="https://www.facebook.com/profile.php?id=100088278282505"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://wa.me/6285211060484"><i class="fa fa-whatsapp"></i></a></li>
-                <li><a href="https://youtube.com/channel/UCO5AB_Q8IJk4zPszzs4QJsg"><i class="fa fa-youtube-play"></i></a></li>
-                <li><a href="https://www.instagram.com/yaya_project12/"><i class="fa fa-instagram"></i></a></li>
-            </ul>
-        </div>
-        <div class="footer-bottom">
-            <p>copyright &copy; 2022 Yaya Project</p>
+    <img src="image/bg-line.svg" class="bg-line" id="project" />
+    <center>
+      <section class="project">
+        <div class="project1">
+          <h3 class="textProject">Jadwal Mata Pelajaran</h3>
+          <h6 class="font-univ">
+            <i class="fa fa-clock-o"></i> 18 September 2022
+          </h6>
+          <img
+            src="project/project-1/roster.jpg"
+            height="200px"
+            widht="200px"
+            align="center" />
+          <br />
+          <a href="project/project-1/roster.html" target="_blank"
+            ><button class="tombolview">Lihat</button></a
+          >
+          <button id="tombol-about1" class="tombol-about">
+            <i class="fa fa-info"></i>
+          </button>
         </div>
 
+        <div class="project2">
+          <h3 class="textProject">Menu Login</h3>
+          <h6 class="font-univ">
+            <i class="fa fa-clock-o"></i> 20 September 2022
+          </h6>
+          <img
+            src="project/project-2/menu-login.jpg"
+            height="200px"
+            widht="200px"
+            align="center" />
+          <br />
+          <a href="project/project-2/menulogin.html" target="_blank"
+            ><button class="tombolview">Lihat</button></a
+          >
+          <button id="tombol-about2" class="tombol-about">
+            <i class="fa fa-info"></i>
+          </button>
+        </div>
+
+        <div class="project3">
+          <h3 class="textProject">Kalkulator</h3>
+          <h6 class="font-univ">
+            <i class="fa fa-clock-o"></i> 28 September 2022
+          </h6>
+          <img
+            src="project/project-3/kalkulator.jpg"
+            height="200px"
+            widht="200px"
+            align="center" />
+          <br />
+          <a href="project/project-3/kalkulator.html" target="_blank"
+            ><button class="tombolview">Lihat</button></a
+          >
+          <button id="tombol-about3" class="tombol-about">
+            <i class="fa fa-info"></i>
+          </button>
+        </div>
+
+        <div class="project4">
+          <h3 class="textProject">Game TicTacToe</h3>
+          <h6 class="font-univ">
+            <i class="fa fa-clock-o"></i> 5 Oktober 2022
+          </h6>
+          <img
+            src="project/project-4/tictactoe.jpg"
+            height="200px"
+            widht="200px"
+            align="center" />
+          <br />
+          <a href="project/project-4/game.html" target="_blank"
+            ><button class="tombolview">Lihat</button></a
+          >
+          <button id="tombol-about4" class="tombol-about">
+            <i class="fa fa-info"></i>
+          </button>
+        </div>
+
+        <div class="project5">
+          <h3 class="textProject">Konverter Suhu</h3>
+          <h6 class="font-univ">
+            <i class="fa fa-clock-o"></i> 8 Oktober 2022
+          </h6>
+          <img
+            src="project/project-5/konverter-suhu.jpg"
+            height="200px"
+            widht="200px"
+            align="center" />
+          <br />
+          <a href="project/project-5/konverter.html" target="_blank"
+            ><button class="tombolview">Lihat</button></a
+          >
+          <button id="tombol-about5" class="tombol-about">
+            <i class="fa fa-info"></i>
+          </button>
+        </div>
+
+        <div class="project6">
+          <h3 class="textProject">Yaya Store</h3>
+          <h6 class="font-univ">
+            <i class="fa fa-clock-o"></i> 18 Oktober 2022
+          </h6>
+          <img
+            src="project/project-6/yaya-store.jpg"
+            height="200px"
+            widht="200px"
+            align="center" />
+          <br />
+          <a href="project/project-6/index.html" target="_blank"
+            ><button class="tombolview">Lihat</button></a
+          >
+          <button id="tombol-about6" class="tombol-about">
+            <i class="fa fa-info"></i>
+          </button>
+        </div>
+
+        <div class="project1">
+          <h3 class="textProject">Game Tembak Burung</h3>
+          <h6 class="font-univ">
+            <i class="fa fa-clock-o"></i> 31 Oktober 2022
+          </h6>
+          <img
+            src="project/project-7/tembakburung.jpg"
+            height="200px"
+            widht="200px"
+            align="center" />
+          <br />
+          <a href="project/project-7/game2.html" target="_blank"
+            ><button class="tombolview">Lihat</button></a
+          >
+          <button id="tombol-about7" class="tombol-about">
+            <i class="fa fa-info"></i>
+          </button>
+        </div>
+
+        <div class="project2">
+          <h3 class="textProject">Yaya Sedang</h3>
+          <h6 class="font-univ">
+            <i class="fa fa-clock-o"></i> 14 November 2022
+          </h6>
+          <img
+            src="project/project-8/yaya-sedang.jpg"
+            height="200px"
+            widht="200px"
+            align="center" />
+          <br />
+          <a href="project/project-8/yaya-sedang.html" target="_blank"
+            ><button class="tombolview">Lihat</button></a
+          >
+          <button id="tombol-about8" class="tombol-about">
+            <i class="fa fa-info"></i>
+          </button>
+        </div>
+
+        <div class="project3">
+          <h3 class="textProject">Roster Ujian</h3>
+          <h6 class="font-univ">
+            <i class="fa fa-clock-o"></i> 26 November 2022
+          </h6>
+          <img
+            src="project/project-9/roster-ujian.jpg"
+            height="200px"
+            widht="200px"
+            align="center" />
+          <br />
+          <a href="project/project-9/roster-ujian.html" target="_blank"
+            ><button class="tombolview">Lihat</button></a
+          >
+          <button id="tombol-about9" class="tombol-about">
+            <i class="fa fa-info"></i>
+          </button>
+        </div>
+
+        <div class="project4">
+          <h3 class="textProject" id="coming-soon">Coming soon!</h3>
+          <img
+            src="project/project-coming-soon/comingsoon.png"
+            height="200px"
+            widht="200px"
+            align="center"
+            id="coming-soon2" />
+          <br />
+          <button class="tombolview" id="tombolview">Lihat</button>
+          <button id="tombol-about-coming" class="tombol-about">
+            <i class="fa fa-info"></i>
+          </button>
+        </div>
+      </section>
+    </center>
+
+    <footer id="about">
+      <img src="image/bg-line1.svg" class="bg-line" />
+      <div class="footer-content">
+        <h1>ABOUT</h1>
+        <p>
+          "Yaya Project " is a simple website created to increase knowledge
+          about programming languages. This website only consists of three
+          programming languages, namely HTML, CSS and JavaScript. This website
+          also contains various projects originating from various case studies.
+        </p>
+        <ul class="socials">
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=100088278282505"
+              ><i class="fa fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="https://wa.me/6285211060484"
+              ><i class="fa fa-whatsapp"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://youtube.com/channel/UCO5AB_Q8IJk4zPszzs4QJsg"
+              ><i class="fa fa-youtube-play"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/yaya_project12/"
+              ><i class="fa fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>copyright &copy; 2022 Yaya Project</p>
+      </div>
     </footer>
- <script src="script.js" type="text/javascript"></script>
-</body>
-
+    <script src="script.js" type="text/javascript"></script>
+  </body>
 </html>

@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/YayaProject/YayaProject">
-    <img src="image/icon.png" alt="Logo" width="200" height="200">
+    <img src="image/logo.png" alt="Logo" width="200" height="200">
   </a>
 
   <h3 align="center">Yaya Project</h3>
