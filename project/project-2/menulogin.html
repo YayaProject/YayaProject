@@ -65,7 +65,11 @@
     <br />
     <script type="text/javascript">
     document.getElementById("popup").onclick = function () {
-  Swal.fire("Lupa Password", "Gini doang di lupain", "question");
+  Swal.fire({
+    title: 'Lupa Password', 
+    text: 'Gini doang di lupain', 
+    icon: 'question'
+  })
 };
 document.getElementById("kolom2").onclick = function () {
   Swal.fire({
