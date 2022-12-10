@@ -63,12 +63,18 @@
     <br />
     <br />
     <script type="text/javascript">
-      document.getElementById("popup").onclick = function () {
-        alert("Anda sangat GG");
-      };
-      document.getElementById("kolom2").onclick = function () {
-        alert("Selamat Anda Telah Masuk Neraka!");
-      };
+    document.getElementById("popup").onclick = function () {
+  Swal.fire("Lupa Password", "Gini doang di lupain", "question");
+};
+document.getElementById("kolom2").onclick = function () {
+  Swal.fire({
+  position: 'top-end',
+  icon: 'success',
+  title: 'Selamat Anda Telah Masuk Neraka',
+  showConfirmButton: false,
+  timer: 1500
+})
+};
     </script>
   </body>
 </html>
