@@ -5,7 +5,7 @@ body {
 }
 .container {
   border-radius: 9px;
-  background: #ffffff;
+  background: #000000;
   box-shadow: 7px 7px 42px #d6d6d6, -7px -7px 42px #ffffff;
   width: 300px;
   height: 400px;
@@ -23,46 +23,39 @@ body {
 .button {
   height: 60px;
   padding: 5px;
-  background-color: #fff;
-  border-radius: 3px;
-  border: 1px solid #c4c4c4;
-  background-color: transparent;
+  background-color: #272727;
+  border-radius: 10px;
   font-size: 2rem;
-  color: #333;
-  background-image: linear-gradient(
-    to bottom,
-    transparent,
-    transparent 50%,
-    rgba(0, 0, 0, 0.04)
-  );
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05),
-    inset 0 1px 0 0 rgba(255, 255, 255, 0.45),
-    inset 0 -1px 0 0 rgba(255, 255, 255, 0.15),
-    0 1px 0 0 rgba(255, 255, 255, 0.15);
-  text-shadow: 0 1px rgba(255, 255, 255, 0.4);
+  color: rgb(255, 255, 255);
 }
 input {
   outline: none;
   border: 1px solid transparent;
 }
 .button:hover {
-  background-color: #eaeaea;
+  background-color: #191919;
 }
 .operator {
-  font-size: 1.4rem;
-  background-color: lightgreen;
+  font-size: 1.8rem;
+  border-radius: 10px;
+  color: black;
+  background-color: #a0a0a0;
+}
+.operator:hover {
+  background-color: #696969;
 }
 
 .clear {
-  background-color: #f0595f;
-  border-color: #b0353a;
+  background-color: red;
+  font-weight: bold;
+  font-size: 20px;
   color: #fff;
   width: 80px;
   height: 40px;
 }
 
 .clear:hover {
-  background-color: #f17377;
+  background-color: rgb(184, 4, 4);
 }
 
 .equal-sign {
@@ -72,7 +65,7 @@ input {
 }
 
 .equal-sign:hover {
-  background-color: #4e9ed4;
+  background-color: #357baa;
 }
 
 .screen {
