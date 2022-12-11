@@ -10,7 +10,13 @@ $(document).ready(function () {
   });
 });
 document.getElementById("tombolview").onclick = function () {
-  Swal.fire("Coming Soon", "Sabar Developer Mau Ujian", "info");
+  Swal.fire("Coming Soon", "Sabar Developer Sedang Stress", "info");
+};
+document.getElementById("tombol-about-coming").onclick = function () {
+  Swal.fire(
+    "Coming Soon",
+    "Update project 1, UI/UX, dan responsif mode landscape"
+  );
 };
 document.getElementById("tombol-about1").onclick = function () {
   Swal.fire(
@@ -57,15 +63,4 @@ document.getElementById("tombol-about8").onclick = function () {
     "Project ini adalah to do list otomatis yang terkoneksi dengan jadwal mata pelajaran"
   );
 };
-document.getElementById("tombol-about9").onclick = function () {
-  Swal.fire(
-    "Roster Ujian",
-    "Project ini adalah roster ujian semester 1 kelas xi mipa"
-  );
-};
-document.getElementById("tombol-about-coming").onclick = function () {
-  Swal.fire(
-    "Coming Soon",
-    "Update project 1, UI/UX, dan responsif mode landscape"
-  );
-};
+
