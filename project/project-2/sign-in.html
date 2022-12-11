@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ff5a9f" />
+    <title>SIGN IN</title>
+    <link rel="stylesheet" href="menu-login.css" />
+  </head>
+
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-CGKTDTK7Y7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-CGKTDTK7Y7");
+  </script>
+
+  <body>
+    <center>
+      <br />
+      <br />
+      <div class="latar3">
+        <img src="icon.jpg" />
+      </div>
+      <div id="latar">
+        <br />
+        <br />
+        <h1>SIGN IN</h1>
+        <br />
+        <form>
+          <div class="latar2">
+            <p class="text"><strong>Username</strong> :</p>
+          </div>
+          <input type="text" class="kolom" required />
+
+          <div class="latar2">
+            <p class="text"><strong>Password</strong> :</p>
+          </div>
+          <input type="password" class="kolom" required />
+
+          <br />
+          <br />
+          <button id="kolom2">SIGN IN</button>
+        </form>
+
+        <a href="forgot-password.html" target="_blank"
+          ><p id="popup"><strong>Forgot password?</strong></p></a
+        >
+        <p>
+          Butuh Bantuan? Hubungi Developer
+          <a href="https://wa.me/6285211060484"
+            ><strong class="text">Di Sini</strong></a
+          >
+          <br />
+          Copyright © 2022 Yaya0712 Project
+        </p>
+      </div>
+    </center>
+    <br />
+    <br />
+    <br />
+    <script type="text/javascript">
+      document.getElementById("kolom2").onclick = function () {
+        alert("Selamat Anda Telah Masuk Neraka!");
+      };
+    </script>
+  </body>
+</html>
