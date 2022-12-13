@@ -1,4 +1,4 @@
-document.getElementById("kolom2").onclick = function () {
+document.getElementById("alert-sign-in").onclick = function () {
         Swal.fire({
   position: 'top-end',
   icon: 'success',
@@ -8,7 +8,7 @@ document.getElementById("kolom2").onclick = function () {
 })
       };
       
-document.getElementById("kolom3").onclick = function () {
+document.getElementById("alert-reset-password").onclick = function () {
         Swal.fire({
   position: 'top-end',
   icon: 'success',
