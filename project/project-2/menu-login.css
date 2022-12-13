@@ -3,7 +3,7 @@
 }
 body {
   background: url("background.svg");
-  font-family: sans-serif;
+  font-family: 'Poppins',sans-serif;
   background-size: cover;
   background-position: center;
   height: 100vh;
