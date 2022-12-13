@@ -41,8 +41,9 @@ body {
   font-family: 'Ubuntu', Sans-Serif;
 }
 #kolom2:hover {
-  background-color: none;
+  background-color: rgba(0,0,0,0);
   color: dodgerblue;
+  border-color: dodgerblue;
 }
 .text {
   text-align: left;
