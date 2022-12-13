@@ -40,7 +40,7 @@ body {
   color: white;
   font-family: 'Ubuntu', Sans-Serif;
 }
-kolom2:hover {
+#kolom2:hover {
   background-color: none;
   color: dodgerblue;
 }
