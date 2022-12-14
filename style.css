@@ -281,6 +281,7 @@ footer {
 }
 .socials a:hover i {
   color: DodgerBlue;
+  background-color: #181535;
 }
 
 .footer-bottom {
