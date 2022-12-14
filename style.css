@@ -4,6 +4,7 @@ html {
 body {
   background-color: #181535;
   color: #181535;
+  font-family: 'Ubuntu',Sans-Serif;
 }
 #bg-blue {
   background-image: url("image/bg-head.svg");
