@@ -1,12 +1,11 @@
 html {
   padding: 0;
   margin: 0;
-  background-image: linear-gradient(#06b6d4, #10b981);
+  background-image: url('background.svg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
-  font-family: sans-serif;
 }
 #latar {
   width: 300px;
@@ -19,10 +18,12 @@ html {
 }
 h2 {
   margin-bottom: 0;
+  font-family: 'Bungee', cursive;
 }
 h3 {
   margin-top: 0;
   color: white;
+  font-family: 'Ubuntu', sans-serif;
 }
 img {
   height: 65%;
