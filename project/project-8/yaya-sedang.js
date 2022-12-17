@@ -1,3 +1,6 @@
+setInterval(myTimer, 1000);
+
+function myTimer() {
 let hari = new Date().getDay();
 let jam = new Date().getHours();
 let menit = new Date().getMinutes();
@@ -272,3 +275,4 @@ else {
 }
 
 document.getElementById("text").innerHTML = tugas;
+}
